@@ -1,0 +1,117 @@
+.mobile__notes__page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.mobile__notes__content__title {
+  height: 15vh;
+  width: 100vw;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 3vh;
+  background-color: rgba(0, 31, 139, 1);
+
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+
+.mobile__notes__content__title > img {
+  height: 3vh;
+  width: 3vh;
+  margin: 0 5vw 0 5vw;
+}
+
+.mobile__notes__content__title__color {
+  height: 8vh;
+  width: 8vh;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 4vw 0 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 4.67vw; /* or 2.10vh */
+  font-weight: 500;
+  line-height: 4.56vw; /* or 2.05vh */
+  letter-spacing: 0.02em;
+  color: rgba(255, 255, 255, 1);
+}
+
+.mobile__notes__content__title__text {
+  height: 7vh;
+  width: 50vw;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 4.64vw; 
+  font-weight: 500;
+  line-height: 5.44vw;
+  letter-spacing: 0.02em;
+  margin: 0 0 0 1vw;
+  color:rgba(255, 255, 255, 1);
+
+}
+
+.mobile__notes__page__body {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 55vh;
+  max-height: 70vh;
+  width: 100vw;
+  margin-top: 15vh;
+  background-color: rgba(220, 231, 247, 1);
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+}
+
+::-webkit-scrollbar {
+  display: none; /* Chrome, Safari and Opera */
+}
+
+.mobile__notes__page__body__empty {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 45vh;
+  width: 100vw;
+  background-color: #f7ecdc;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.mobile__notes__input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+  width: 100vw;
+  background-color: rgba(0, 31, 139, 1);
+  position: fixed;
+  bottom: 0;
+}
+
+.mobile__notes__input > textarea {
+  border: none;
+  outline: none;
+  border-radius: 1vh;
+  font-size: large;
+  padding: 1vh;
+  height: 25vh;
+  width: 90vw;
+  resize: none;
+}
+
+.mobile__notes__input img {
+  position: absolute;
+  bottom: 4vh;
+  right: 6vh;
+  width: 20px;
+  height: 20px;
+}

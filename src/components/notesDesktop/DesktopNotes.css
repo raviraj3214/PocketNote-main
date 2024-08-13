@@ -1,0 +1,89 @@
+.desktop__notes {
+  width: 88vw;
+  height: 100vh;
+  display: flex;
+
+  flex-direction: column;
+  margin: auto;
+  background-color: rgba(218, 229, 245, 1);
+  
+}
+
+.desktop__notes__title {
+  height: 9vh;
+  width: 88vw;
+  background-color: #001F8B;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 5vh;
+}
+
+.desktop__notes__title__color {
+  height: 6vh;
+  width: 6vh;
+  border-radius: 50%;
+  margin: 2px 0 0 4vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 3vh;
+}
+
+.desktop__notes__title__text{
+    margin-left: 4vh;
+    font-family:roboto;
+    font-size: 32px;
+    display: inline;
+    padding: 12px;
+    padding-left: 4px;
+    font-weight: 500;
+    color:#ffffff;
+    line-height:28px;
+    letter-spacing:2%;
+
+}
+
+.desktop__notes__content {
+  overflow: hidden;
+  overflow-y: auto;
+  margin-left: 1rem;
+  height: 60.5vh;
+  width: 80vw;
+  background-color: rgba(218, 229, 245, 1);  
+}
+
+
+.desktop__notes__content__title {
+  height: 20vh;
+  width: 76vw;
+}
+
+.desktop__notes__input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+  width: 85vw;
+  background-color: rgba(0, 31, 139, 1);
+  position: fixed;
+  bottom: 0;
+}
+
+.desktop__notes__input > textarea {
+  border: none;
+  outline: none;
+  border-radius: 1vh;
+  font-size: large;
+  margin-right: 5vh;
+  height: 25vh;
+  width: 78vw;
+  resize: none;
+}
+
+.desktop__notes__input img {
+  position: absolute;
+  bottom: 4vh;
+  right: 10vh;
+}
